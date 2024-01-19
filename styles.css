@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(45deg,rgb(242, 157, 245), #f0efe9, rgb(242, 157, 245));
+}
+#bmiCalculator {
+    margin: 0 auto;
+	width:300px;
+    padding:20px;
+    border:1px solid black;
+    border-radius:5px;
+    text-align: center;
+}
+
+input {
+    width: 90%;
+    margin: 10px 0;
+    padding: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    background-color:rgb(46, 65, 235);
+    color:white;
+    border-radius:5px;
+    cursor:pointer;
+  
+}
+
+
+#result {
+    margin-top: 20px;
+}
+button:hover{
+    background-color:red;
+}
+
+
+#bmiRangeBar {
+    margin-top: 20px;
+    height: 20px;
+    width: 100%;
+    border-radius: 5px;
+    background: linear-gradient(to right, #FF6347, #008000, #FF4500); /* Red, Green, Orange */
+}
